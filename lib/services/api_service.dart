@@ -6,11 +6,7 @@ import '../models/order.dart';
 
 class ApiService {
   static String get baseUrl {
-    if (!kIsWeb && defaultTargetPlatform == TargetPlatform.android) {
-      // Menggunakan IP lokal komputer untuk HP Fisik
-      return 'http://192.168.18.10:8000/v1';
-    }
-    return 'http://127.0.0.1:8000/v1';
+    return 'https://backendlibrarium-production.up.railway.app/v1';
   }
 
   static String getFullImageUrl(String url) {

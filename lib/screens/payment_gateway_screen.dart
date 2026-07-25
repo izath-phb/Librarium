@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import '../services/api_service.dart';
 import 'main_dashboard.dart';
+import 'payment_receipt_screen.dart';
 
 class PaymentGatewayScreen extends StatefulWidget {
   final List<String> orderIds;
@@ -30,32 +31,14 @@ class _PaymentGatewayScreenState extends State<PaymentGatewayScreen> {
     setState(() => _isProcessing = false);
 
     if (allSuccess) {
-      showDialog(
-        context: context,
-        barrierDismissible: false,
-        builder: (context) => AlertDialog(
-          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16.r)),
-          title: const Icon(Icons.check_circle, color: Colors.green, size: 64),
-          content: Text(
-            'Pembayaran Berhasil!\nTerima kasih telah berbelanja di Librarium.',
-            textAlign: TextAlign.center,
-            style: TextStyle(fontSize: 14.sp),
+      Navigator.pushReplacement(
+        context,
+        MaterialPageRoute(
+          builder: (context) => PaymentReceiptScreen(
+            orderIds: widget.orderIds,
+            totalAmount: widget.totalAmount,
+            paymentMethod: _selectedMethod,
           ),
-          actions: [
-            Center(
-              child: ElevatedButton(
-                onPressed: () {
-                  Navigator.pushAndRemoveUntil(
-                    context,
-                    MaterialPageRoute(builder: (context) => const MainDashboard()),
-                    (route) => false,
-                  );
-                },
-                style: ElevatedButton.styleFrom(backgroundColor: const Color(0xFF1E1E50)),
-                child: const Text('Kembali ke Beranda', style: TextStyle(color: Colors.white)),
-              ),
-            ),
-          ],
         ),
       );
     } else {
