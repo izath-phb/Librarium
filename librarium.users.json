@@ -1,0 +1,136 @@
+[{
+  "_id": {
+    "$oid": "6a60e2f63dc764a0678d4e61"
+  },
+  "email": "izathbsl123@gmail.com",
+  "hashed_password": "$2b$12$ZRGNQBWCoeVCId.uapLLCuvmau5WqE8djsETe.yVw.OCGR3no9vM2",
+  "full_name": "Izath",
+  "role": "customer",
+  "is_active": true,
+  "provider": "google",
+  "created_at": {
+    "$date": "2026-07-22T15:34:14.507Z"
+  },
+  "updated_at": {
+    "$date": "2026-07-24T01:05:01.853Z"
+  },
+  "avatar_url": "/static/uploads/585ca3cf512e4da28ba36048a96e5183.jpg"
+},
+{
+  "_id": {
+    "$oid": "6a640a9e70d0669ce6baa7dc"
+  },
+  "email": "bslizath@gmail.com",
+  "hashed_password": "$2b$12$RMMqnEZOEfNEL8kJUYRQsOWH9ZUnkK2Lyxo/h2qiIru/ygB3JfwTG",
+  "full_name": "izathh",
+  "role": "customer",
+  "is_active": true,
+  "created_at": {
+    "$date": "2026-07-25T01:00:14.318Z"
+  },
+  "updated_at": {
+    "$date": "2026-07-25T01:01:34.248Z"
+  },
+  "avatar_url": "/static/uploads/2c938ce052ec443c9a778fd46b9060a6.jpg"
+},
+{
+  "_id": {
+    "$oid": "6a640d3270d0669ce6baa7dd"
+  },
+  "email": "sofianakhansa@gmail.com",
+  "hashed_password": "$2b$12$7/n2RP5TOZQAz3nYjir5VOYiTIcqju9t2I1q7wbfwY5WKjZ5hIFV2",
+  "full_name": "Khansa Sofiana",
+  "role": "customer",
+  "is_active": true,
+  "provider": "google",
+  "created_at": {
+    "$date": "2026-07-25T01:11:14.861Z"
+  },
+  "updated_at": {
+    "$date": "2026-07-25T01:11:14.861Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a640d7370d0669ce6baa7de"
+  },
+  "email": "ijat@gmail.com",
+  "hashed_password": "$2b$12$HFbkYJg4MgI.FqPiQrUDpuoe.xMCRNFfExtiOHo2z6H.pzVpVw5MO",
+  "full_name": "ijat",
+  "role": "customer",
+  "is_active": true,
+  "created_at": {
+    "$date": "2026-07-25T01:12:19.245Z"
+  },
+  "updated_at": {
+    "$date": "2026-07-25T01:12:19.245Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a64747e4638d7295c93aedc"
+  },
+  "email": "dulah@gmail.com",
+  "hashed_password": "$2b$12$0I0zrzV9EGzfD9h7KwjN4e49x2WhSE9A64Ov7lXoavDIdY2f954C6",
+  "full_name": "dulah",
+  "role": "customer",
+  "is_active": true,
+  "created_at": {
+    "$date": "2026-07-25T08:31:58.168Z"
+  },
+  "updated_at": {
+    "$date": "2026-07-25T08:31:58.168Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a64d81c4638d7295c93aedd"
+  },
+  "email": "ariftri1000@gmail.com",
+  "hashed_password": "$2b$12$F7EGwNHCiR2BqcJKUdjIfeEAVVJKon8klwRUBfbcYG6YQNeA0FMG.",
+  "full_name": "Arif Tri",
+  "role": "customer",
+  "is_active": true,
+  "provider": "google",
+  "created_at": {
+    "$date": "2026-07-25T15:37:00.173Z"
+  },
+  "updated_at": {
+    "$date": "2026-07-27T13:09:27.633Z"
+  },
+  "address": "Tegal, Jawa Tengah, Indonesia"
+},
+{
+  "_id": {
+    "$oid": "6a674fb34638d7295c93aede"
+  },
+  "email": "riyannurhidayat297@gmail.com",
+  "hashed_password": "$2b$12$XRGCBSZeSFymfIT1uZb3RuhOfCGlNnSCDrmptBi5XirX/cegqpm/y",
+  "full_name": "Riyan Nur Hidayat",
+  "role": "customer",
+  "is_active": true,
+  "provider": "google",
+  "created_at": {
+    "$date": "2026-07-27T12:31:47.039Z"
+  },
+  "updated_at": {
+    "$date": "2026-07-27T12:31:47.039Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a67750b4638d7295c93aedf"
+  },
+  "email": "riyannewskull@gmail.com",
+  "hashed_password": "$2b$12$kAuGMxHODeEF8Yerf.m7xubu/bURFJTeDv6IVMk.t5slMcabv5qbW",
+  "full_name": "riyan new skull",
+  "role": "customer",
+  "is_active": true,
+  "provider": "google",
+  "created_at": {
+    "$date": "2026-07-27T15:11:07.360Z"
+  },
+  "updated_at": {
+    "$date": "2026-07-27T15:11:07.360Z"
+  }
+}]

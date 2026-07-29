@@ -1,0 +1,60 @@
+[{
+  "_id": {
+    "$oid": "6a615c45b9689e7e84e72135"
+  },
+  "title": "The Modern Table",
+  "author": "Chef Adrian",
+  "price": 310000,
+  "description": "Koleksi resep modern yang memadukan teknik klasik dan bahan lokal.",
+  "image_url": "https://images.unsplash.com/photo-1495195134817-aeb325a55b65?q=80&w=600&auto=format&fit=crop"
+},
+{
+  "_id": {
+    "$oid": "6a615c45b9689e7e84e72131"
+  },
+  "title": "The Weaver of Dreams",
+  "author": "Elena Thorne",
+  "price": 245000,
+  "description": "Kisah epik tentang seorang pemimpi yang mampu merajut realitas baru melalui benang-benang kosmik.",
+  "image_url": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=600&auto=format&fit=crop"
+},
+{
+  "_id": {
+    "$oid": "6a615c45b9689e7e84e72133"
+  },
+  "title": "Digital Stoicism",
+  "author": "Marcus Aurelius Jr.",
+  "price": 189000,
+  "description": "Panduan praktis menerapkan filosofi stoik di era digital yang penuh distraksi.",
+  "image_url": "https://images.unsplash.com/photo-1512820790803-83ca734da794?q=80&w=600&auto=format&fit=crop"
+},
+{
+  "_id": {
+    "$oid": "6a615c45b9689e7e84e72134"
+  },
+  "title": "Minimalist Life",
+  "author": "Junji Kato",
+  "price": 98000,
+  "description": "Menemukan kebahagiaan sejati dengan melepaskan barang-barang fisik yang tidak perlu.",
+  "image_url": "https://images.unsplash.com/photo-1522204523234-8729aa6e3d5f?q=80&w=600&auto=format&fit=crop"
+},
+{
+  "_id": {
+    "$oid": "6a615c45b9689e7e84e72132"
+  },
+  "title": "The Echoing Silence",
+  "author": "Elias Valerius",
+  "price": 125000,
+  "description": "Sebuah novel yang memikat tentang rahasia tersembunyi di balik kesunyian sebuah kota kecil.",
+  "image_url": "https://images.unsplash.com/photo-1589829085413-56de8ae18c73?q=80&w=600&auto=format&fit=crop"
+},
+{
+  "_id": {
+    "$oid": "6a615c45b9689e7e84e72136"
+  },
+  "title": "Kingdom of Dust",
+  "author": "L.H. Thompson",
+  "price": 155000,
+  "description": "Petualangan melintasi padang pasir tak berujung untuk menemukan kerajaan yang hilang.",
+  "image_url": "https://images.unsplash.com/photo-1532012197267-da84d127e765?q=80&w=600&auto=format&fit=crop"
+}]
